@@ -1,0 +1,46 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.ipynb_checkpoints/
+
+# ===== Environments =====
+# Don't commit virtual environments (recreate from environment.yml / requirements.txt)
+venv/
+env/
+ENV/
+.conda/
+conda-env/
+
+# ===== Data =====
+# Datasets are not versioned (downloaded via code).
+# Keep the folder but ignore its contents.
+data/*
+!data/.gitkeep
+
+# ===== Trained models =====
+# Weights and checkpoints are heavy; not versioned by default.
+*.ckpt
+*.pth
+*.pt
+*.mindir
+*.onnx
+checkpoints/
+
+# ===== Jupyter =====
+*.ipynb_checkpoints
+
+# ===== Operating system =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== IDEs =====
+.vscode/
+.idea/
+*.swp

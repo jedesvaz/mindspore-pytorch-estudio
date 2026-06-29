@@ -1,0 +1,18 @@
+# Core frameworks
+mindspore==2.9.0
+torch==2.12.1
+torchvision
+torchaudio
+
+# Numerical computing and data
+numpy<2.0.0
+pandas
+scikit-learn
+
+# Visualization
+matplotlib
+
+# Notebooks
+jupyter
+notebook
+ipykernel
